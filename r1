@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information Page</title>
+</head>
+<body>
+
+    <a href="javascript:void(0);" onclick="showInformation()">Click me to display information</a>
+
+    <div id="information" style="display:none;">
+        <p>This is the paragraph containing information. Replace this text with your own content.</p>
+    </div>
+
+    <script>
+        function showInformation() {
+            var informationDiv = document.getElementById("information");
+            informationDiv.style.display = "block";
+        }
+    </script>
